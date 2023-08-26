@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "shopName": "FashionHub",
+      "productName": "Stylish Sneakers",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/08/Shajgoj-Rajkonna-Deal-You-Cant-Miss-20-AUGUST.jpg",
+      "productDiscount": 20,
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "shopName": "ElectroDeals",
+      "productName": "Smartphone X7",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/01/The-Body-Shop.png",
+      "productDiscount": 15,
+      "price": 599.99
+    },
+    {
+      "id": 3,
+      "shopName": "HomeGoods",
+      "productName": "Cozy Throw Blanket",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/06/Skin-Cafe-1-larg-1.png",
+      "productDiscount": 30,
+      "price": 29.95
+    },
+    {
+      "id": 4,
+      "shopName": "BeautyEmporium",
+      "productName": "Luxury Perfume",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/01/Neutrogena.png",
+      "productDiscount": 10,
+      "price": 89.50
+    },
+    {
+      "id": 5,
+      "shopName": "GourmetDelights",
+      "productName": "Artisan Chocolate Box",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/07/Shajgoj-Nirvana-New-Arrivel-1.gif",
+      "productDiscount": 25,
+      "price": 19.99
+    },
+    {
+      "id": 6,
+      "shopName": "SportsZone",
+      "productName": "Fitness Tracker Watch",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2022/10/Simple.png",
+      "productDiscount": 18,
+      "price": 79.95
+    }
+    
+  ]
+  

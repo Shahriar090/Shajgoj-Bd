@@ -5,7 +5,7 @@ import LgNavOptions from "./LgNavOptions";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-white shadow-sm border-b-2  p-6 items-center justify-center">
+      <div className="navbar bg-white p-6 items-center justify-center">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -75,6 +75,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+      <span className="divider w-9/12 mx-auto"></span>
 
       <div className="nav-options hidden md:block lg:block">
         <LgNavOptions></LgNavOptions>
