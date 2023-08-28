@@ -12,7 +12,7 @@ const Deals = () => {
         Deals You Cannot Miss
       </h1>
     
-      <div className="images grid gird-cols-1 md:grid-cols-4 gap-3 md:gap-0 mt-3 md:px-8">
+      <div className="images grid gird-cols-1 md:grid-cols-4 gap-3 md:gap-0 mt-3 md:px-8 max-w-screen-xl mx-auto p-8 md:p-0 lg:p-0">
         {/* card 01 */}
         <Link>
         <div className="card w-full md:w-[300px] md:h-[300px] bg-white  mx-auto">

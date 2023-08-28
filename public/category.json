@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "shopName": "Beauty Emporium",
+      "category": "Lipstick",
+      "productName": "Matte Lipstick - Ruby Red",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Makeup-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 10,
+      "price": 15.99
+    },
+    {
+      "id": 2,
+      "shopName": "Glamour Haven",
+      "category": "Eyeshadow",
+      "productName": "Eyeshadow Palette - Nude Elegance",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/K-Beauty-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 15,
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "shopName": "Radiant Beauty",
+      "category": "Foundation",
+      "productName": "Liquid Foundation - Ivory",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Skin-Care-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 0,
+      "price": 22.5
+    },
+    {
+      "id": 4,
+      "shopName": "Serene Cosmetics",
+      "category": "Mascara",
+      "productName": "Volumizing Mascara - Blackest Black",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Accessories-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 20,
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "shopName": "Glowing Trends",
+      "category": "Blush",
+      "productName": "Powder Blush - Peachy Glow",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Hair-Care-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 5,
+      "price": 9.49
+    },
+    {
+      "id": 6,
+      "shopName": "Flawless Beauty",
+      "category": "Highlighter",
+      "productName": "Cream Highlighter - Champagne Glow",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Mom-Baby-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 0,
+      "price": 18.75
+    },
+    {
+      "id": 7,
+      "shopName": "Luxe Cosmetics",
+      "category": "Lip Gloss",
+      "productName": "High-Shine Lip Gloss - Rosy Mirage",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Undergarments-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 10,
+      "price": 8.99
+    },
+    {
+      "id": 8,
+      "shopName": "Naturale Beauty",
+      "category": "Skincare",
+      "productName": "Facial Serum - Hyaluronic Acid",
+      "productImg": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Fragrance-Eid-Al-Adha-Sale-2023.png",
+      "productDiscount": 0,
+      "price": 24.99
+    }
+    
+  ]
+  

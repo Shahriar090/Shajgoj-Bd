@@ -4,7 +4,7 @@ import Navbar from '../../Pages/Home/Navbar/Navbar';
 
 const Main = () => {
     return (
-        <div>
+        <div className=''>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
