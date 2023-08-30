@@ -15,7 +15,7 @@ const TopBrandsAndOffers = () => {
         Top Brands & Offers
       </h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-xl mx-auto p-8 md:p-0 lg:p-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-xl mx-auto p-5 '>
                 {
                     offers.map(offer=> <TopBrandsAndOffersCards
                     key={offer.id}

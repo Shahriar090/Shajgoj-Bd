@@ -5,7 +5,7 @@ const TopBrandsAndOffersCards = ({offer}) => {
 
     return (
         <div>
-           <div className="w-96 mx-auto">
+           <div className="">
             <figure><img src={productImg} alt="Shoes" /></figure>
   
         </div>

@@ -11,7 +11,7 @@ const ShopByCategoryCard = ({ singleItem }) => {
     price,
   } = singleItem;
   return (
-    <div className="w-60 md:w-full lg:w-full mx-auto p-2 md:p-0 lg:p-0">
+    <div className="">
       <figure>
         <img
           src={productImg}

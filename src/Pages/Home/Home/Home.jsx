@@ -4,6 +4,7 @@ import Deals from '../Deals/Deals';
 import TopBrandsAndOffers from '../TopBrandsAndOffers/TopBrandsAndOffers';
 import ShopByCategory from '../ShopByCategory/ShopByCategory';
 import ShopByConcern from '../ShopByConcern/ShopByConcern';
+import Discount from '../Discount/Discount';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <TopBrandsAndOffers></TopBrandsAndOffers>
             <ShopByCategory></ShopByCategory>
             <ShopByConcern></ShopByConcern>
+            <Discount></Discount>
         </div>
     );
 };

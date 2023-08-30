@@ -17,7 +17,7 @@ const ShopByConcern = () => {
             </div>
 
             <main>
-                <div className='grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 max-w-screen-xl mx-auto gap-2'>
+                <div className='grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 max-w-screen-xl mx-auto gap-2 p-5'>
                     {
                         concerns.map(data => <ConcernCard
                         key={data.id}
