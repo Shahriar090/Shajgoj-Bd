@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Acne-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$99.99",
+      "problem": "Slow Performance",
+      "solution": "Upgrade to latest hardware",
+      "description": "Improve your system's performance by upgrading to the latest hardware components."
+    },
+    {
+      "id": 2,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Anti-Aging-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$49.99",
+      "problem": "Battery Drain",
+      "solution": "Optimize background apps",
+      "description": "Extend your device's battery life by optimizing background apps and power-hungry processes."
+    },
+    {
+      "id": 3,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Oil-Control-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$149.99",
+      "problem": "Data Loss",
+      "solution": "Regular data backups",
+      "description": "Protect your valuable data from loss by creating regular backups and storing them securely."
+    },
+    {
+      "id": 4,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Pore-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$199.99",
+      "problem": "Network Connectivity",
+      "solution": "Upgrade to high-speed router",
+      "description": "Improve your network connectivity by upgrading to a high-speed router for better performance."
+    },
+    {
+      "id": 5,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Dandruff-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$79.99",
+      "problem": "Software Crashes",
+      "solution": "Update software patches",
+      "description": "Resolve software crashes and glitches by installing the latest software patches and updates."
+    },
+    {
+      "id": 6,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Dry-Skin-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$129.99",
+      "problem": "Security Breach",
+      "solution": "Use strong passwords",
+      "description": "Enhance your device's security by using strong and unique passwords for all your accounts."
+    },
+    {
+      "id": 7,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Spot-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$59.99",
+      "problem": "Storage Shortage",
+      "solution": "Delete unnecessary files",
+      "description": "Free up storage space by removing unnecessary files, duplicates, and old backups."
+    },
+    {
+      "id": 8,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Hair-Thinning-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$89.99",
+      "problem": "Display Issues",
+      "solution": "Calibrate display settings",
+      "description": "Resolve display issues by calibrating your device's display settings for optimal viewing."
+    },
+    {
+      "id": 9,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Hair-Fall-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$69.99",
+      "problem": "Audio Problems",
+      "solution": "Check audio settings",
+      "description": "Fix audio problems by adjusting audio settings, checking for loose connections, and updating drivers."
+    },
+    {
+      "id": 10,
+      "image": "https://shop.shajgoj.com/wp-content/uploads/2023/05/Sun-Burn-SBC-Eid-Al-Adha-Sale-2023.png",
+      "price": "$109.99",
+      "problem": "Overheating",
+      "solution": "Clean cooling system",
+      "description": "Prevent overheating by regularly cleaning your device's cooling system and ensuring proper ventilation."
+    }
+  ]
+  

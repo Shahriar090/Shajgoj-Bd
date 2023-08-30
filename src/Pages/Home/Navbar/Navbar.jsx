@@ -62,16 +62,16 @@ const Navbar = () => {
         </div>
       </div>
         <div className="search-field">
-          <input type="text" placeholder="search for products & brands" className="input input-bordered w-44 md:w-56 mt-5  md:mt-0 md:ml-20 rounded-full border-orange-600" />
+          <input type="text" placeholder="search for products & brands" className="input input-bordered w-44 md:w-56 mt-5  md:mt-0 md:ml-20 rounded-full border-[#ff3d71]" />
         </div>
        </div>
         </div>
         <div className="buttons flex flex-col md:flex-row ml-20  md:gap-0 lg:gap-0">
           <div className="accounts hidden md:block">
-            <button className="btn btn-outline border-orange-600 hover:bg-orange-600 btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full uppercase">My Account</button>
+            <button className="bt bg-[#f5f5f5] text-[#222] hover:text-[#ff3d71] btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full uppercase font-bold">My Account</button>
           </div>
           <div className="bag ml-5  hidden md:block">
-            <button className="btn btn-secondary btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full text-white">Bag</button>
+            <button className="btn bg-[#ff3d71] hover:bg-[#ff3d71] btn-xs sm:btn-sm md:btn-md lg:btn-md rounded-full text-white">Bag (0)</button>
           </div>
         </div>
       </div>
