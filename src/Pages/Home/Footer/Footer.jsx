@@ -1,31 +1,36 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaPinterest, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import paymentPic from '../../../assets/payment-pic.png'
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-[#192038] text-neutral-content">
-        <div>
-         <img src="https://shop.shajgoj.com/wp-content/themes/Shajgoj/assets/images/logov2L.png" alt="Loading" className="w-52" />
+      <footer className="footer p-10 justify-center items-center bg-[#192038] text-neutral-content">
+        <div className="flex flex-col md:flex-row lg:flex-row">
+        
           
         <div className="parent flex flex-col md:flex-row lg:flex-row gap-12">
-        <div className="uppercase mt-5 space-y-2">
+        <div className="uppercase mt-5 space-y-2 ">
+       <div className="pb-5">
+       <img src="https://shop.shajgoj.com/wp-content/themes/Shajgoj/assets/images/logov2L.png" alt="Loading" className="w-52" />
+       </div>
             <p>Our Story?</p>
             <p>Shajgoj Outlets</p>
             <p>Join Out Team</p>
             <p className="border-b-2">Authenticity</p>
             <p>Share Your Love</p>
             <div className="logo-container">
-                <div className="logos flex gap-2">
-                    <h1>Facebook</h1>
-                    <h1>Youtube</h1>
-                    <h1>Instagram</h1>
-                    <h1>Pinterest</h1>
+                <div className="logos flex gap-2 text-xl">
+                    <h1><FaFacebook></FaFacebook></h1>
+                    <h1><FaYoutube></FaYoutube></h1>
+                    <h1><FaInstagram></FaInstagram></h1>
+                    <h1><FaPinterest></FaPinterest></h1>
                 </div>
             </div>
             
         </div>
-        <div className="details patent flex flex-col md:flex-row lg:flex-row gap-20">
+        <div className="details patent flex flex-col md:flex-row lg:flex-row gap-20 pt-3">
             <div className="uppercase space-y-2">
                 <h1 className="text-[#ff3d71] text-lg mb-5">Top Categories</h1>
                 <p>Makeup</p>
@@ -66,9 +71,7 @@ const Footer = () => {
                 <p className="border-b-2">Privacy Policy</p>
                 <p>Payment Accepted</p>
                 <div className="payment-systems flex gap-2">
-                    <h1>Bkash</h1>
-                    <h1>Visa</h1>
-                    <h1>MasterCards</h1>
+                   <img src={paymentPic} alt="" />
                 </div>
             </div>
         </div>
