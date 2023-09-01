@@ -14,28 +14,28 @@ const Slider = () => {
           <img
             src={sliderImgOne}
             alt="Loading"
-            className="w-full h-full"
+            className="w-full"
           />
         </div>
         <div id="item2" className="carousel-item w-full h-[40vh] md:h-[75vh] lg:h-[75vh]">
           <img
             src={sliderImgTwo}
             alt="Loading"
-            className="w-full h-full"
+            className="w-full"
           />
         </div>
         <div id="item3" className="carousel-item w-full h-[40vh] md:h-[75vh] lg:h-[75vh]">
           <img
             src={sliderImgThree}
             alt="Loading"
-            className="w-full h-full"
+            className="w-full"
           />
         </div>
         <div id="item4" className="carousel-item w-full h-[40vh] md:h-[75vh] lg:h-[75vh]">
           <img
             src={sliderImgFour}
             alt="Loading"
-            className="w-full h-full"
+            className="w-full"
           />
         </div>
       </div>

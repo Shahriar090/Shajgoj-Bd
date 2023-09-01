@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LgNavOptions from "./LgNavOptions";
-import { FaShoppingBag } from "react-icons/fa";
+import { FaSearch, FaShoppingBag, FaUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="navbar bg-white  items-center justify-center">
         <div className="navbar-start">
           <div className="dropdown">
-            <div className="drawer lg:hidden mr-10">
+            <div className="drawer lg:hidden mr-10 z-50">
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />
               <div className="drawer-content">
                 {/* Page content here */}
@@ -20,7 +20,16 @@ const Navbar = () => {
               </div>
               <div className="drawer-side">
                 <label htmlFor="my-drawer" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+               
+                <ul className="menu p-4 w-80 min-h-full bg-white text-base-content ">
+                <div>
+                  <h1 className="text-center text-lg uppercase">Menu</h1>
+                  <span className="divider"></span>
+                 <div className="flex gap-3 justify-center">
+                 <h1><FaSearch></FaSearch></h1>
+                 <h1><FaUser></FaUser></h1>
+                 </div>
+                </div>
                   {/* Sidebar content here */}
                   <li>
                     <Link>Make Up</Link>
