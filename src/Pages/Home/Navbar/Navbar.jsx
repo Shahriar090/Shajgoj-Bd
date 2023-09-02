@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LgNavOptions from "./LgNavOptions";
-import { FaSearch, FaShoppingBag, FaUser } from "react-icons/fa";
+import { FaPlus, FaSearch, FaShoppingBag, FaUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="drawer-side">
                 <label htmlFor="my-drawer" className="drawer-overlay"></label>
                
-                <ul className="menu p-4 w-80 min-h-full bg-white text-base-content ">
+                <ul className="menu p-4 w-80 min-h-full bg-white text-base-content gap-2">
                 <div>
                   <h1 className="text-center text-lg uppercase">Menu</h1>
                   <span className="divider"></span>
@@ -32,79 +32,87 @@ const Navbar = () => {
                 </div>
                   {/* Sidebar content here */}
                   <li>
-                    <Link>Make Up</Link>
+                   <div className="flex justify-between">
+                   <Link>Make Up</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>Skin</Link>
+                  <div className="flex justify-between">
+                   <Link>Skin</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>Hair</Link>
+                  <div className="flex justify-between">
+                   <Link>Hair</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>Personal Care</Link>
+                  <div className="flex justify-between">
+                   <Link>Personal Care</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>Mom & Baby</Link>
+                  <div className="flex justify-between">
+                   <Link>Mom & Baby</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>Fragrance</Link>
-                  </li>
-
-                  <li>
-                    <Link>
-                      <button className="btn text-white bg-[rgb(34,92,228)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase">
-                        Under Garments
-                      </button>
-                    </Link>
+                  <div className="flex justify-between">
+                   <Link>Fragrance</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                   <li>
-                    <Link>
-                      <button className="btn text-white bg-[rgb(231,38,80)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase">
-                        Combo
-                      </button>
-                    </Link>
+                  <div className="flex justify-between">
+                   <Link>Undergarments</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
-
                   <li>
-                    {" "}
-                    <Link>
-                      <button className="btn text-white bg-[rgb(176,71,201)]  btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase">
-                        Buy 1 Get 1
-                      </button>
-                    </Link>
+                  <div className="flex justify-between">
+                   <Link>Combo</Link>
+                   {/* <h1><FaPlus></FaPlus></h1> */}
+                   </div>
                   </li>
-
                   <li>
-                    <Link>
-                      <button className="btn text-white bg-[rgb(9,181,181)]  btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase">
-                        Clearance Sale
-                      </button>
-                    </Link>
+                  <div className="flex justify-between">
+                   <Link>Buy 1 Get 1</Link>
+                   {/* <h1><FaPlus></FaPlus></h1> */}
+                   </div>
                   </li>
-
                   <li>
-                    {" "}
-                    <Link>
-                      <button className="btn text-white bg-[rgb(9,181,102)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase">
-                        Men
-                      </button>
-                    </Link>
+                  <div className="flex justify-between">
+                   <Link>Clearance Sale</Link>
+                   {/* <h1><FaPlus></FaPlus></h1> */}
+                   </div>
+                  </li>
+                  <li>
+                  <div className="flex justify-between">
+                   <Link>Men</Link>
+                   <h1><FaPlus></FaPlus></h1>
+                   </div>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+          {/* Navbar log and search field */}
           <div className="logo-and-search flex flex-col md:flex-row gap-0 ">
             <div className="logo-container flex flex-row mt-0 md:mt-4">
               <div className="logo">
                 <img
                   src="https://shop.shajgoj.com/wp-content/themes/Shajgoj/assets/images/logov2.png"
                   alt="Loading"
-                  className=" w-52"
+                  className=" w-44"
                 />
               </div>
               <div className="brand hidden md:block">
-                <h2 className="font-semibold uppercase md:ml-3">Brands</h2>
+                <h2 className="font-semibold uppercase md:ml-10">Brands</h2>
               </div>
             </div>
             <div className="search-field">
