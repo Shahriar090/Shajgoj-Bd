@@ -5,13 +5,14 @@ import sliderImgTwo from "../../../assets/slider-2.jpg";
 import sliderImgThree from "../../../assets/slider-3.jpg";
 import sliderImgFour from "../../../assets/slider-3.png";
 import { GoDotFill, } from "react-icons/go";
-import { FaShoppingBag } from "react-icons/fa";
+import { FaFacebookMessenger, FaShoppingBag } from "react-icons/fa";
+import chatImg from '../../../assets/chat.png'
 
 const Slider = () => {
   return (
     <div>
       
-       <div className="fixed right-0 top-72 bg-[#192038] border-2 border-[#ff3d71] rounded-lg">
+       <div className="fixed right-0 top-72 bg-[#192038] border-2 border-[#ff3d71] rounded-lg z-50">
        <div className="p-1">
         <h1 className="text-2xl text-center text-white "><FaShoppingBag></FaShoppingBag></h1>
         <p className="text-white">0 Items</p>
@@ -20,6 +21,12 @@ const Slider = () => {
         <p className="text-center ">$0</p>
         </div>
        
+       </div>
+
+       <div className="help-desk fixed right-6 bottom-10 bg-[#ff3d71] rounded-full z-50">
+        <div>
+          <h1 className="text-3xl text-white p-2"><FaFacebookMessenger></FaFacebookMessenger></h1>
+        </div>
        </div>
       
       <div className="carousel">
