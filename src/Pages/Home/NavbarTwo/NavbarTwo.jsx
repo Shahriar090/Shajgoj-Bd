@@ -25,13 +25,13 @@ const NavbarTwo = () => {
           </div>
         </div>
 
-        <div className="nav-search p-5 md:p-0 lg:p-0 ml-0 md:ml-52 relative">
+        <div className="nav-search p-2 md:p-0 lg:p-0 ml-0 md:ml-52 relative">
           <input
             type="text"
             placeholder="Search For Products, Brands..."
             className="input w-80 md:w-96 max-w-full  md:border-[#ff3d71] bg-gray-100 rounded-none md:rounded-full text-center"
           />
-          <div className="absolute left-6 hidden md:block lg:block">
+          <div className="absolute left-6 ">
             <h1 className="text-gray-400"><FaSearch></FaSearch></h1>
           </div>
         </div>
