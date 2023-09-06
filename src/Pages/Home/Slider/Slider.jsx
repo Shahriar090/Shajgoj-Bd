@@ -4,6 +4,7 @@ import sliderImgOne from "../../../assets/slider-1.png";
 import sliderImgTwo from "../../../assets/slider-2.jpg";
 import sliderImgThree from "../../../assets/slider-3.jpg";
 import sliderImgFour from "../../../assets/slider-3.png";
+import newSliderImg from "../../../assets/new-slider.png"
 import { GoDotFill } from "react-icons/go";
 import { FaFacebookMessenger, FaShoppingBag } from "react-icons/fa";
 
@@ -37,7 +38,7 @@ const Slider = () => {
           id="item1"
           className="carousel-item w-full h-[40vh] md:h-[75vh] lg:h-[75vh]"
         >
-          <img src={sliderImgOne} alt="Loading" className="w-full" />
+          <img src={newSliderImg} alt="Loading" className="w-full"/>
         </div>
         <div
           id="item2"

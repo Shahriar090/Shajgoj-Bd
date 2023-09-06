@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LgNavOptions = () => {
+const NavLgOptions = () => {
     return (
-        <di>
-            <div className='flex gap-6 pb-3 items-center justify-center'>
+        <div>
+             
+             <div className='flex gap-6 pb-3 items-center justify-center'>
         <Link>MakeUp</Link>
         <Link>Skin</Link>
         <Link>Here</Link>
@@ -21,11 +22,9 @@ const LgNavOptions = () => {
         <Link><button className='btn text-white bg-[rgb(9,181,102)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase'>Men</button></Link>
             
             </div>
-        </di>
+           
+        </div>
     );
 };
 
-export default LgNavOptions;
-
-
-
+export default NavLgOptions;
