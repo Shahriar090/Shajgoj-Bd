@@ -1,8 +1,10 @@
 import React from 'react';
 import { CgMenuLeftAlt } from 'react-icons/cg';
-import { FaPlus, FaSearch, FaUser } from 'react-icons/fa';
+import { FaPlus,FaRegUserCircle } from 'react-icons/fa';
 import { RxCross1 } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
+import { HiOutlineSearch, } from "react-icons/hi";
+import { BsPlus, } from "react-icons/bs";
 
 const NavbarDropDown = () => {
     return (
@@ -39,11 +41,11 @@ const NavbarDropDown = () => {
               </div>
               <span className="divider"></span>
               <div className="flex gap-3 justify-center">
-                <h1>
-                  <FaSearch></FaSearch>
+                <h1 className='text-lg'>
+                  <HiOutlineSearch></HiOutlineSearch>
                 </h1>
-                <h1>
-                  <FaUser></FaUser>
+                <h1 className='text-lg'>
+                  <FaRegUserCircle></FaRegUserCircle>
                 </h1>
               </div>
             </div>
@@ -51,56 +53,56 @@ const NavbarDropDown = () => {
                     <li>
               <div className="flex justify-between">
                 <Link>Make Up</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                  <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Skin</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Hair</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Personal Care</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Mom & Baby</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Fragrance</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
             <li>
               <div className="flex justify-between">
                 <Link>Undergarments</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
@@ -125,8 +127,8 @@ const NavbarDropDown = () => {
             <li>
               <div className="flex justify-between">
                 <Link>Men</Link>
-                <h1>
-                  <FaPlus></FaPlus>
+                <h1 className='text-lg'>
+                <BsPlus></BsPlus>
                 </h1>
               </div>
             </li>
