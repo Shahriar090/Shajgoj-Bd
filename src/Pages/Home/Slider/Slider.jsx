@@ -36,21 +36,21 @@ const Slider = () => {
           <img
             src={newSliderImg}
             alt="Loading"
-            className="w-full h-[25vh] md:h-[75vh] lg:h-[55vh]"
+            className="w-full h-[25vh] md:h-[75vh] lg:h-[75vh]"
           />
         </div>
         <div id="item2" className="carousel-item w-full ">
           <img
             src={sliderImgTwo}
             alt="Loading"
-            className=" w-full h-[25vh] md:h-[75vh] lg:h-[55vh]"
+            className=" w-full h-[25vh] md:h-[75vh] lg:h-[75vh]"
           />
         </div>
         <div id="item3" className="carousel-item w-full ">
           <img
             src={sliderImgThree}
             alt="Loading"
-            className="w-full  h-[25vh] md:h-[75vh] lg:h-[55vh]"
+            className="w-full  h-[25vh] md:h-[75vh] lg:h-[75vh]"
           />
         </div>
         <div id="item4" className="carousel-item w-full ">
