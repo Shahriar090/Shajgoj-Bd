@@ -84,7 +84,7 @@ const Slider = () => {
           <img
             src={sliderImgFive}
             alt="Loading"
-            className="w-full  h-auto"
+            className="w-full h-auto"
             loading="lazy"
           />
           </picture>
