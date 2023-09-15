@@ -1,9 +1,9 @@
-import sliderImgTwo from "../../../assets/slider-2.jpg";
-import sliderImgThree from "../../../assets/slider-3.jpg";
-import sliderImgFour from "../../../assets/slider-3.png";
-import newSliderImg from "../../../assets/new-slider.png";
+import sliderImgOne from "../../../assets/slider-1.png"
+import sliderImgTwo from "../../../assets/slider-2.jpg"
+import sliderImgThree from "../../../assets/slider-3.jpg"
+import sliderImgFour from "../../../assets/slider-4.png"
+import sliderImgFive from "../../../assets/slider-5.jpg"
 import { GoDotFill } from "react-icons/go";
-
 import { RiChatSmileFill } from "react-icons/ri";
 import { BsBagDashFill } from "react-icons/bs";
 
@@ -31,35 +31,65 @@ const Slider = () => {
         </div>
       </div>
 
+      {/* slider */}
+
       <div className="carousel">
-        <div id="item1" className="carousel-item w-full">
+        <div id="item1" className="carousel-item w-full h-auto">
+          <picture>
           <img
-            src={newSliderImg}
+            src={sliderImgOne}
             alt="Loading"
-            className="w-full h-[25vh] md:h-[75vh] lg:h-[75vh]"
+            className="w-full h-auto"
+            loading="lazy"
           />
+          </picture>
         </div>
-        <div id="item2" className="carousel-item w-full ">
+        <div id="item2" className="carousel-item w-full h-auto">
+          <picture>
           <img
             src={sliderImgTwo}
             alt="Loading"
-            className=" w-full h-[25vh] md:h-[75vh] lg:h-[75vh]"
+            className=" w-full h-auto"
+            loading="lazy"
           />
+          </picture>
         </div>
-        <div id="item3" className="carousel-item w-full ">
-          <img
+
+        <div id="item3" className="carousel-item w-full h-auto">
+         <picture>
+         <img
             src={sliderImgThree}
             alt="Loading"
-            className="w-full  h-[25vh] md:h-[75vh] lg:h-[75vh]"
+            className=" w-full h-auto"
+            loading="lazy"
           />
+         </picture>
         </div>
-        <div id="item4" className="carousel-item w-full ">
+
+        <div id="item4" className="carousel-item w-full h-auto">
+          <picture>
+            
           <img
             src={sliderImgFour}
             alt="Loading"
-            className="w-full h-[25vh] md:h-[75vh] lg:h-[75vh]"
+            className="w-full h-auto"
+            loading="lazy"
           />
+          </picture>
+          
         </div>
+
+        <div id="item5" className="carousel-item w-full h-auto">
+          <picture>
+          <img
+            src={sliderImgFive}
+            alt="Loading"
+            className="w-full  h-auto"
+            loading="lazy"
+          />
+          </picture>
+        </div>
+       
       </div>
       <div className="flex justify-center w-full py-2 gap-2">
         <a href="#item1" className="text-sm md:text-xl lg:text-xl">
@@ -69,6 +99,9 @@ const Slider = () => {
           <GoDotFill></GoDotFill>
         </a>
         <a href="#item3" className="text-sm md:text-xl lg:text-xl">
+          <GoDotFill></GoDotFill>
+        </a>
+        <a href="#item4" className="text-sm md:text-xl lg:text-xl">
           <GoDotFill></GoDotFill>
         </a>
         <a href="#item4" className="text-sm md:text-xl lg:text-xl">

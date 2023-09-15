@@ -110,9 +110,9 @@ const NavLgOptions = () => {
            </div>
 
     </ul>
-    {/* mega dropdown of makeup section end here */}
     </div>
 
+    {/* mega dropdown of makeup section end here */}
         </Link>
        
         </li>
