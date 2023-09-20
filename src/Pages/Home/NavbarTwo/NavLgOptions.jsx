@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const NavLgOptions = () => {
   return (
     <div>
-      <div className="flex gap-6 pb-3 items-center justify-center">
+      <div className="flex gap-5 items-center justify-center">
         <div className="group relative">
-        <Link className=" text-sm text-[#222]">Makeup</Link>
+        <Link className=" text-xs text-[#222]">Makeup</Link>
 
         <div className="hidden group-hover:block absolute z-10 top-full left-0 bg-white shadow-lg py-2 px-4 mt-3">
             <div className="makeup-items-parent-container flex gap-10">
@@ -117,38 +117,38 @@ const NavLgOptions = () => {
         </div>
         </div>
 
-        <Link className=" text-sm text-[#222]">Skin</Link>
-        <Link className="text-sm text-[#222]">Hair</Link>
-        <Link className="text-sm text-[#222]">Personal Care</Link>
-        <Link className="text-sm text-[#222]">Mom & baby</Link>
-        <Link className="text-sm text-[#222]">Fragrance</Link>
+        <Link className="text-xs text-[#222]">Skin</Link>
+        <Link className="text-xs text-[#222]">Hair</Link>
+        <Link className="text-xs text-[#222]">Personal Care</Link>
+        <Link className="text-xs text-[#222]">Mom & baby</Link>
+        <Link className="text-xs text-[#222]">Fragrance</Link>
 
         <Link>
-          <button className="btn text-white bg-[rgb(34,92,228)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase rounded-full hover:bg-[rgb(34,92,228)]">
+          <button className="btn text-white bg-[rgb(34,92,228)] btn-xs  uppercase rounded-full hover:bg-[rgb(34,92,228)]">
             Under Garments
           </button>
         </Link>
 
         <Link>
-          <button className="btn text-white bg-[rgb(231,38,80)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase rounded-full hover:bg-[rgb(231,38,80)]">
+          <button className="btn text-white bg-[rgb(231,38,80)] btn-xs  uppercase rounded-full hover:bg-[rgb(231,38,80)]">
             Combo
           </button>
         </Link>
 
         <Link>
-          <button className="btn text-white bg-[rgb(176,71,201)]  btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase rounded-full hover:bg-[rgb(176,71,201)]">
+          <button className="btn text-white bg-[rgb(176,71,201)]  btn-xs  uppercase rounded-full hover:bg-[rgb(176,71,201)]">
             Buy 1 Get 1
           </button>
         </Link>
 
         <Link>
-          <button className="btn text-white bg-[rgb(9,181,181)]  btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase rounded-full hover:bg-[rgb(9,181,181)]">
+          <button className="btn text-white bg-[rgb(9,181,181)]  btn-xs  uppercase rounded-full hover:bg-[rgb(9,181,181)]">
             Clearance Sale
           </button>
         </Link>
 
         <Link>
-          <button className="btn text-white bg-[rgb(9,181,102)] btn-xs sm:btn-sm md:btn-sm lg:btn-sm uppercase rounded-full hover:bg-[rgb(9,181,102)]">
+          <button className="btn text-white bg-[rgb(9,181,102)] btn-xs  uppercase rounded-full hover:bg-[rgb(9,181,102)]">
             Men
           </button>
         </Link>

@@ -21,7 +21,7 @@ const NavbarDropDown = () => {
                     htmlFor="my-drawer"
                     className="btn btn-outline border-0 drawer-button"
                   >
-                    <h1 className="text-3xl">
+                    <h1 className="text-2xl">
                       <CgMenuLeftAlt></CgMenuLeftAlt>
                     </h1>
                   </label>

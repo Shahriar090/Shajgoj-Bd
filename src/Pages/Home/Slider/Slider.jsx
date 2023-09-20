@@ -34,57 +34,57 @@ const Slider = () => {
       {/* slider */}
 
       <div className="carousel">
-        <div id="item1" className="carousel-item w-full h-full md:h-auto lg:h-auto">
+        <div id="item1" className="carousel-item w-full">
           <picture>
           <img
             src={sliderImgOne}
             alt="Loading"
-            className="w-full h-[25vh] md:h-auto lg:h-auto"
+            className="w-full h-48 md:h-auto lg:h-auto"
             loading="lazy"
           />
           </picture>
         </div>
-        <div id="item2" className="carousel-item w-full h-full md:h-auto lg:h-auto">
+        <div id="item2" className="carousel-item w-full">
           <picture>
           <img
             src={sliderImgTwo}
             alt="Loading"
-            className=" w-full h-[25vh] md:h-auto lg:h-auto"
+            className=" w-full h-48 md:h-auto lg:h-auto"
             loading="lazy"
           />
           </picture>
         </div>
 
-        <div id="item3" className="carousel-item w-full h-full md:h-auto lg:h-auto">
+        <div id="item3" className="carousel-item w-full">
          <picture>
          <img
             src={sliderImgThree}
             alt="Loading"
-            className=" w-full h-[25vh] md:h-auto lg:h-auto"
+            className=" w-full h-48 md:h-auto lg:h-auto"
             loading="lazy"
           />
          </picture>
         </div>
 
-        <div id="item4" className="carousel-item w-full h-full md:h-auto lg:h-auto">
+        <div id="item4" className="carousel-item w-full">
           <picture>
             
           <img
             src={sliderImgFour}
             alt="Loading"
-            className="w-full h-[25vh] md:h-auto lg:h-auto"
+            className="w-full h-48 md:h-auto lg:h-auto"
             loading="lazy"
           />
           </picture>
           
         </div>
 
-        <div id="item5" className="carousel-item w-full h-full md:h-auto lg:h-auto">
+        <div id="item5" className="carousel-item w-full">
           <picture>
           <img
             src={sliderImgFive}
             alt="Loading"
-            className="w-full h-[25vh] md:h-auto lg:h-auto"
+            className="w-full h-48 md:h-auto lg:h-auto"
             loading="lazy"
           />
           </picture>
