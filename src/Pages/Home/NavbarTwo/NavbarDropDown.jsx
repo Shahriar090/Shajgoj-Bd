@@ -45,7 +45,7 @@ const NavbarDropDown = () => {
                   <HiOutlineSearch></HiOutlineSearch>
                 </h1>
                 <h1 className='text-lg'>
-                  <FaRegUserCircle></FaRegUserCircle>
+                  <Link to='/login'><FaRegUserCircle></FaRegUserCircle></Link>
                 </h1>
               </div>
             </div>

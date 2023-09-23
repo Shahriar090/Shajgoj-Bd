@@ -48,7 +48,7 @@ const NavbarTwo = () => {
         <div className="logo-container ml-12 mr-16 ">
           <div className="nav-logo flex gap-6">
             <div>
-              <img src={logoImg} alt="Loading" className="w-32 mt-1" />
+            <Link to='/'>  <img src={logoImg} alt="Loading" className="w-32 mt-1" /></Link>
             </div>
             <div className="brands text-xs">
               
@@ -73,9 +73,9 @@ const NavbarTwo = () => {
 
           <div className="nav-buttons ml-3 flex gap-2">
             <div className="accounts">
-              <button className="btn btn-sm bg-[#f5f5f5] text-[#222] hover:text-[#ff3d71]  rounded-full uppercase font-bold">
+              <Link to='/login'><button className="btn btn-sm bg-[#f5f5f5] text-[#222] hover:text-[#ff3d71]  rounded-full uppercase font-bold" title="Login / Register">
                 My Account
-              </button>
+              </button></Link>
             </div>
 
             <div className="bag">

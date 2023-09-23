@@ -10,7 +10,7 @@ const NavLgOptions = () => {
 
         <div className="hidden group-hover:block absolute z-10 top-full left-0 bg-white shadow-lg py-2 px-4 mt-3">
             <div className="makeup-items-parent-container flex gap-10">
-            <div className="face-item-container w-52 p-2">
+            <div className="face-item-container p-2">
             <ul>
                 <h1 className="font-bold uppercase">FACE</h1>
                 <li><Link>Face Primer</Link></li>
@@ -31,7 +31,7 @@ const NavLgOptions = () => {
             </div>
 
                 {/* eyes items */}
-            <div className="eyes-item-container bg-gray-100 w-60 p-2">
+            <div className="eyes-item-container bg-gray-100 w-48 p-2">
             <ul>
                 <h1 className="font-bold uppercase">EYES</h1>
                 <li><Link>Kajal</Link></li>
@@ -65,7 +65,7 @@ const NavLgOptions = () => {
 
             {/* nails items */}
 
-            <div className="nails-item-container w-60 p-2 bg-gray-100">
+            <div className="nails-item-container p-2 w-48 bg-gray-100">
             <ul>
                 <h1 className="font-bold uppercase ">Nails</h1>
                 <li><Link>Nail Polish</Link></li>
@@ -99,7 +99,7 @@ const NavLgOptions = () => {
 
             {/* top brands */}
 
-            <div className="top-brands-container w-48 p-2 bg-gray-100">
+            <div className="top-brands-container p-2 w-48 bg-gray-100">
             <ul>
                 <h1 className="font-bold uppercase ">TOP BRANDS</h1>
                 <li><Link>Wet n wild</Link></li>
