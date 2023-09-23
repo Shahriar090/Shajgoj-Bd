@@ -11,11 +11,11 @@ const TopBrandsAndOffers = () => {
     return (
         <div>
             <div>
-            <h1 className="font-bold uppercase text-center mt-5 mb-5">
+            <h1 className="font-bold md:font-semibold uppercase text-center mt-16 mb-2 text-xs text-[#222222]">
         Top Brands & Offers
       </h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-xl mx-auto p-5 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-lg mx-auto px-1 md:px-5 lg:px-5'>
                 {
                     offers.map(offer=> <TopBrandsAndOffersCards
                     key={offer.id}

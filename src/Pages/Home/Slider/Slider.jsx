@@ -13,7 +13,7 @@ const Slider = () => {
       {/* cart */}
       <div className="fixed right-0 top-72 bg-[#192038] border-2 border-[#ff3d71] rounded-lg z-50">
         <div className="p-1">
-          <h1 className="text-2xl text-white ml-3">
+          <h1 className="text-xl text-white flex justify-center">
             <BsBagDashFill></BsBagDashFill>
           </h1>
           <p className="text-white">0 Items</p>
