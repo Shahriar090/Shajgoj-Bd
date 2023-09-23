@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
+    useEffect(()=>{
+        loadCaptchaEnginge(6); 
+    },[])
     return (
         <div>
             <section>
@@ -11,10 +15,18 @@ const Login = () => {
                    <h4>Phone<span className='text-[#ff3d71]'>*</span></h4><br />
                    {/* input field for login */}
                     <input type="text"  placeholder='Phone' className='border-2 w-80 px-3 md:w-96 lg:w-96 max-w-full h-10 ' />
+                   <div className="captcha mt-3">
+                     {/* captcha */}
+                
+                   
+                   {/* input field for captcha */}
+                   <h4>Captcha</h4>
+                   <input type="text"  placeholder='Type The Captcha Above' className='border-2 w-80 px-3 md:w-96 lg:w-96 max-w-full h-10 ' />
                     {/* captcha */}
-                    <div className="captcha">
-                        <h1>Captcha will be added here</h1>
-                    </div>
+                    
+                    <LoadCanvasTemplate />
+                    
+                   </div>
                     {/* login with otp */}
                     <button className='btn btn-sm px-5 mt-8 bg-[#ff3d71] text-white uppercase hover:bg-[#ff3d71]'>Login With Otp</button>
                     <br />
