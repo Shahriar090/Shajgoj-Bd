@@ -20,10 +20,10 @@ const Deals = () => {
         {/* images grid gird-cols-1 md:grid-cols-4 gap-3 md:gap-0 mt-1 md:px-8 max-w-screen-xl mx-auto p-1 md:p-0 lg:p-0 */}
       </h1>
     
-      <div className="images grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-1 md:gap-2 p-0 max-w-screen-lg mx-auto md:px-5">
+      <div className="images grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3 md:gap-2 p-0 max-w-screen-lg mx-auto px-1 md:px-5">
         {/* card 01 */}
         <Link>
-        <div className="card w-48 md:w-full bg-white  mx-auto">
+        <div className="card w-full md:w-full bg-white  mx-auto">
           <figure>
             <picture>
             <img
@@ -38,7 +38,7 @@ const Deals = () => {
         </Link>
         {/* card 02 */}
         <Link>
-        <div className="card w-48 md:w-full bg-white  mx-auto">
+        <div className="card w-full md:w-full bg-white  mx-auto">
           <figure>
             <picture>
             <img
@@ -53,7 +53,7 @@ const Deals = () => {
         </Link>
         {/* card 03 */}
         <Link>
-        <div className="card w-48 md:w-full bg-white mx-auto">
+        <div className="card w-full md:w-full bg-white mx-auto">
           <figure>
            <picture>
            <img
@@ -68,7 +68,7 @@ const Deals = () => {
         </Link>
         {/* card 04 */}
         <Link>
-        <div className="card w-48 md:w-full bg-white mx-auto">
+        <div className="card w-full md:w-full bg-white mx-auto">
           <figure>
             <picture>
             <img
