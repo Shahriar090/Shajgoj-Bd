@@ -32,7 +32,7 @@ const Login = () => {
                     <br />
                     <span className='flex justify-center mt-3'>OR</span>
 
-                    <Link className='uppercase underline font-bold text-xs flex justify-center mt-2'>
+                    <Link to='/emailPasswordLogin' className='uppercase underline font-bold text-xs flex justify-center mt-2'>
                     Login with email & password</Link>
                 </div>
             </section>
