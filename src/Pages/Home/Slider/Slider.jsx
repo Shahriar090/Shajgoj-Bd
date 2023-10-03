@@ -1,8 +1,14 @@
-import sliderImgOne from "../../../assets/slider-1.png"
-import sliderImgTwo from "../../../assets/slider-2.jpg"
-import sliderImgThree from "../../../assets/slider-3.jpg"
-import sliderImgFour from "../../../assets/slider-4.png"
-import sliderImgFive from "../../../assets/slider-5.jpg"
+import sliderImgOne from "../../../assets/Slider-Images/slider-1.png"
+import sliderImgTwo from "../../../assets/Slider-Images/slider-2.jpg"
+import sliderImgThree from "../../../assets/Slider-Images/slider-3.jpg"
+import sliderImgFour from "../../../assets/Slider-Images/slider-4.png"
+import sliderImgFive from "../../../assets/Slider-Images/slider-5.jpg"
+import sliderImgSix from "../../../../src/assets/Slider-Images/slider-6.png"
+import mobileSliderOne from "../../../assets/Slider-Mobile/Mobile-Banner-1.png"
+import mobileSliderTwo from "../../../assets/Slider-Mobile/Mobile-Slider-2.png"
+import mobileSliderThree from "../../../assets/Slider-Mobile/Mobile-Banner-3 .jpg"
+import mobileSliderFour from "../../../assets/Slider-Mobile/Mobile-Banner-4.jpg"
+import mobileSliderFive from "../../../assets/Slider-Mobile/Mobile-Banner-5.jpg"
 import { GoDotFill } from "react-icons/go";
 import { RiChatSmileFill } from "react-icons/ri";
 import { BsBagDashFill } from "react-icons/bs";
@@ -33,58 +39,78 @@ const Slider = () => {
 
       {/* slider */}
 
-      <div className="carousel">
-        <div id="item1" className="carousel-item w-full">
+      <div className="carousel w-full h-auto">
+        <div id="item1" className="carousel-item w-full h-auto">
           <picture>
           <img
             src={sliderImgOne}
             alt="Loading"
-            className="w-full h-48 md:h-auto lg:h-auto"
+            className="w-full h-100% hidden md:block lg:block"
             loading="lazy"
           />
+            {/* mobile slider */}
+          <img src={mobileSliderOne} alt="Loading" className="md:hidden lg:hidden" loading="lazy" />
           </picture>
         </div>
-        <div id="item2" className="carousel-item w-full">
+        <div id="item2" className="carousel-item w-full h-auto">
+          <picture>
+          <img
+            src={sliderImgSix}
+            alt="Loading"
+            className="w-full h-100% hidden md:block lg:block"
+            loading="lazy"
+          />
+          {/* mobile slider */}
+          <img src={mobileSliderTwo} alt="" className="md:hidden lg:hidden" loading="lazy" />
+          </picture>
+        </div>
+        <div id="item3" className="carousel-item w-full h-auto">
           <picture>
           <img
             src={sliderImgTwo}
             alt="Loading"
-            className=" w-full h-48 md:h-auto lg:h-auto"
+            className=" w-full h-100% hidden md:block lg:block"
             loading="lazy"
           />
+          {/* mobile slider */}
+          <img src={mobileSliderThree} alt="" className="md:hidden lg:hidden" loading="lazy"/>
           </picture>
         </div>
 
-        <div id="item3" className="carousel-item w-full">
+        <div id="item4" className="carousel-item w-full h-auto">
          <picture>
          <img
             src={sliderImgThree}
             alt="Loading"
-            className=" w-full h-48 md:h-auto lg:h-auto"
+            className=" w-full h-100% hidden md:block lg:block"
             loading="lazy"
           />
+          {/* mobile slider */}
+          <img src={mobileSliderFour} alt="" className="md:hidden lg:hidden" loading="lazy"/>
          </picture>
         </div>
 
-        <div id="item4" className="carousel-item w-full">
+        <div id="item5" className="carousel-item w-full h-auto">
           <picture>
             
           <img
             src={sliderImgFour}
             alt="Loading"
-            className="w-full h-48 md:h-auto lg:h-auto"
+            className="w-full h-100% hidden md:block lg:block"
             loading="lazy"
           />
+          {/* mobile slider */}
+          <img src={mobileSliderFive} alt="" className="md:hidden lg:hidden" loading="lazy"/>
           </picture>
           
         </div>
 
-        <div id="item5" className="carousel-item w-full">
+        <div id="item6" className="carousel-item w-full h-auto hidden md:block lg:block">
           <picture>
           <img
             src={sliderImgFive}
             alt="Loading"
-            className="w-full h-48 md:h-auto lg:h-auto"
+            className="w-full h-100% "
             loading="lazy"
           />
           </picture>
@@ -105,6 +131,9 @@ const Slider = () => {
           <GoDotFill></GoDotFill>
         </a>
         <a href="#item5" className="text-sm md:text-xl lg:text-xl">
+          <GoDotFill></GoDotFill>
+        </a>
+        <a href="#item6" className="text-sm md:text-xl lg:text-xl hidden md:block lg:block">
           <GoDotFill></GoDotFill>
         </a>
       </div>
