@@ -11,7 +11,7 @@ const NavbarTwo = () => {
   return (
     <nav>
       {/* navbar for small device */}
-      <div className="navbar-container md:hidden lg:hidden py-2 px-4">
+      <div className="navbar-container bg-white fixed z-10 w-full  lg:hidden py-2 px-4">
         {/* logo and dropdown container for small device */}
         <div className="navbar-start flex items-center w-full gap-14">
           <div className="dropdown">
@@ -22,19 +22,19 @@ const NavbarTwo = () => {
             <div>
               <img src={logoImg} alt="Loading" className="w-32" />
             </div>
-            <div className="brands hidden md:block">
+            <div className="brands hidden md:block lg:block">
               <h1 className="uppercase font-semibold">Brands</h1>
             </div>
           </div>
         </div>
         <div className="search-field m-3">
-          <div className="nav-search md:hidden relative">
+          <div className="nav-search  relative">
             <input
               type="text"
               placeholder="Search For Products, Brands..."
-              className="input w-full  md:border-[#ff3d71] bg-gray-100 rounded-none text-center"
+              className="input w-full   bg-gray-100 rounded-none px-10"
             />
-            <div className="absolute left-6 bottom-4">
+            <div className="absolute left-4 bottom-4">
               <h1 className="text-gray-400">
                 <FaSearch></FaSearch>
               </h1>
@@ -44,27 +44,27 @@ const NavbarTwo = () => {
       </div>
 
       {/* navbar for large device */}
-      <div className="navbar bg-white max-w-screen-lg mx-auto  hidden md:block lg:block">
-        <div className="logo-container ml-12 mr-16 ">
-          <div className="nav-logo flex gap-6">
+      <div className="navbar bg-white max-w-screen-lg mx-auto  hidden md:hidden lg:block px-4">
+        <div className="logo-container">
+          <div className="nav-logo flex gap-10">
             <div>
             <Link to='/'>  <img src={logoImg} alt="Loading" className="w-32 mt-1" /></Link>
             </div>
             <div className="brands text-xs">
               
-              <Link><button className="btn btn-xs uppercase font-bold bg-white border-0 hover:bg-white">Brands</button></Link>
+              <Link className=" uppercase font-bold bg-white border-0 hover:bg-white"> Brands</Link>
             </div>
           </div>
         </div>
 
-        <div className="navbar-search ml-28">
+        <div className="navbar-search ml-60">
           <div className="nav-search  relative">
             <input
               type="text"
               placeholder="Search For Products, Brands..."
-              className="input w-80 h-9 border-[#ff3d71] bg-gray-100 rounded-full text-center"
+              className="input w-80 h-8 border-[#ff3d71] bg-gray-100 rounded-full px-8 py-2"
             />
-            <div className="absolute bottom-3 left-4">
+            <div className="absolute bottom-2 left-2">
               <h1 className="text-gray-400">
                 <FaSearch></FaSearch>
               </h1>
@@ -73,20 +73,20 @@ const NavbarTwo = () => {
 
           <div className="nav-buttons ml-3 flex gap-2">
             <div className="accounts">
-              <Link to='/login'><button className="btn btn-sm bg-[#f5f5f5] text-[#222] hover:text-[#ff3d71]  rounded-full uppercase font-bold" title="Login / Register">
+              <Link to='/login'><button className="btn btn-sm bg-[#f5f5f5] text-[#222] hover:text-[#ff3d71]  rounded-full uppercase font-bold text-xs" title="Login / Register">
                 My Account
               </button></Link>
             </div>
 
             <div className="bag">
-              <button className="btn btn-sm bg-[#ff3d71] hover:bg-[#ff3d71]  rounded-full text-white">
+              <button className="btn btn-sm bg-[#ff3d71] hover:bg-[#ff3d71]  rounded-full text-white text-xs">
                 <FaShoppingBag></FaShoppingBag>Bag (0)
               </button>
             </div>
           </div>
         </div>
 
-        <div className="hidden md:block lg:block p-1 border-t-2 max-w-screen-lg mx-auto mt-1">
+        <div className="hidden md:block lg:block border-t-2 max-w-screen-lg mx-auto mt-1 pt-1">
         <NavLgOptions></NavLgOptions>
       </div>
       </div>
