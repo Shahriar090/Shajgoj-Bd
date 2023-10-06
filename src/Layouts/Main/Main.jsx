@@ -9,7 +9,9 @@ const Main = () => {
         <div>
 
             <NavbarTwo></NavbarTwo>
-            <Outlet></Outlet>
+           <div className='bg-white'>
+           <Outlet></Outlet>
+           </div>
             <Footer></Footer>
         </div>
     );

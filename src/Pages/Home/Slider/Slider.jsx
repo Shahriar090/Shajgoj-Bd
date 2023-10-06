@@ -41,7 +41,7 @@ const Slider = () => {
 
       {/* slider */}
 
-      <div className="carousel w-full pt-32 md:pt-0 lg:pt-0 xl:pt-0 xxl:pt-0">
+      <div className="carousel bg-white w-full pt-32 md:pt-0 lg:pt-0 xl:pt-0 xxl:pt-0">
         <div id="item1" className="carousel-item w-full h-auto">
           <picture>
             <img

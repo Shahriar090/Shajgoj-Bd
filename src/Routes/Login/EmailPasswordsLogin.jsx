@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const EmailPasswordsLogin = () => {
     return (
         <div>
-           <section className='container w-full h-auto max-w-screen-md mx-auto mt-20 mb-20 items-center justify-center px-12'>
+           <section className='container w-full h-auto max-w-screen-md mx-auto  mb-20 pt-40  px-12'>
             <h1 className='text-4xl mb-5 text-[#222]'>Login</h1>
             <div className="input-field">
                 <p className='font-extralight mb-2'>Username Or Email Address <span className='text-[#ff3d71]'>*</span></p>

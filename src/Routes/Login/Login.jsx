@@ -9,7 +9,7 @@ const Login = () => {
     return (
         <div>
             <section>
-                <div className='container w-full h-auto max-w-screen-sm mx-auto mt-20 mb-20 items-center justify-center px-5'>
+                <div className='container w-full h-auto max-w-screen-sm mx-auto  mb-20 pt-40  px-12'>
 
                     <h1 className='text-4xl mb-5 text-[#222222]'>Login</h1>
                    <h4>Phone<span className='text-[#ff3d71]'>*</span></h4><br />
