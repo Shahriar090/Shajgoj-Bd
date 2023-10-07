@@ -9,7 +9,7 @@ const Main = () => {
         <div>
 
             <NavbarTwo></NavbarTwo>
-           <div className='bg-white pt-28 md:pt-0 lg:pt-0 xl:pt-0 2xl:pt-0'>
+           <div className='bg-white pt-28 md:pt-28 lg:pt-0 xl:pt-0 2xl:pt-0'>
            <Outlet></Outlet>
            </div>
             <Footer></Footer>

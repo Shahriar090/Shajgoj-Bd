@@ -48,13 +48,13 @@ const Slider = () => {
               src={newSliderOne}
               
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
+              className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
             {/* mobile slider */}
             <img
               src={newSliderOneMobile}
               alt="Loading"
-              className="md:hidden lg:hidden"
+              className="md:hidden lg:hidden w-full"
             />
           </picture>
         </div>
@@ -63,10 +63,10 @@ const Slider = () => {
             <img
               src={sliderImgSix}
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
+              className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
             {/* mobile slider */}
-            <img src={mobileSliderTwo} alt="" className="md:hidden lg:hidden" />
+            <img src={mobileSliderTwo} alt="" className="md:hidden lg:hidden w-full" />
           </picture>
         </div>
         <div id="item3" className="carousel-item w-full h-auto">
@@ -74,13 +74,13 @@ const Slider = () => {
             <img
               src={sliderImgTwo}
               alt="Loading"
-              className=" w-full h-100% hidden md:block lg:block xl:block xxl:block"
+              className=" w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
             {/* mobile slider */}
             <img
               src={mobileSliderThree}
               alt=""
-              className="md:hidden lg:hidden"
+              className="md:hidden lg:hidden w-full"
             />
           </picture>
         </div>
@@ -90,13 +90,13 @@ const Slider = () => {
             <img
               src={sliderImgThree}
               alt="Loading"
-              className=" w-full h-100% hidden md:block lg:block xl:block xxl:block"
+              className=" w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
             {/* mobile slider */}
             <img
               src={mobileSliderFour}
               alt=""
-              className="md:hidden lg:hidden"
+              className="md:hidden lg:hidden w-full"
             />
           </picture>
         </div>
@@ -106,13 +106,13 @@ const Slider = () => {
             <img
               src={sliderImgFour}
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
+              className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
             {/* mobile slider */}
             <img
               src={mobileSliderFive}
               alt=""
-              className="md:hidden lg:hidden"
+              className="md:hidden lg:hidden w-full"
             />
           </picture>
         </div>
@@ -122,7 +122,7 @@ const Slider = () => {
           className="carousel-item w-full h-auto "
         >
           <picture>
-            <img src={sliderImgFive} alt="Loading" className="w-full h-100% hidden md:block lg:block xl:block xxl:block" />
+            <img src={sliderImgFive} alt="Loading" className="w-full h-100% hidden md:block lg:block xl:block 2xl:block 2xl:w-[7000px]" />
           </picture>
         </div>
       </div>

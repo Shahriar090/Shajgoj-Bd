@@ -9,8 +9,8 @@ const Discount = () => {
             <div className="img max-w-screen-lg mx-auto px-0 md:px-5 lg:px-5 mt-20 mb-20">
                 <img src={discountImg} alt="" />
             </div>
-            <div className="footer-banner bg-purple-900 h-auto max-w-100%">
-                <img src={footerImg} alt="" />
+            <div className="footer-banner bg-purple-900 h-auto w-100%">
+                <img src={footerImg} alt="" className='mx-auto' />
             </div>
         </div>
     );
