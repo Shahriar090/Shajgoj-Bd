@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 const NavbarTwo = () => {
   return (
+   <>
     <nav>
       {/* navbar for small device */}
       <div className="navbar-container bg-white fixed z-10 w-full  lg:hidden py-2 px-4">
@@ -42,13 +43,15 @@ const NavbarTwo = () => {
           </div>
         </div>
       </div>
+    </nav>
 
-      {/* navbar for large device */}
-      <div className="navbar bg-white max-w-screen-lg mx-auto  hidden md:hidden lg:block px-4">
+    {/* navbar for large device */}
+   <nav>
+   <div className="navbar  bg-white w-full max-w-screen-lg mx-auto hidden md:hidden lg:block xl:block 2xl:block"> 
         <div className="logo-container">
-          <div className="nav-logo flex gap-10">
+          <div className="nav-logo flex items-center justify-center gap-10">
             <div>
-            <Link to='/'>  <img src={logoImg} alt="Loading" className="w-32 mt-1" /></Link>
+            <Link to='/'>  <img src={logoImg} alt="Loading" className="w-32 mt-1 " /></Link>
             </div>
             <div className="brands text-xs">
               
@@ -90,9 +93,8 @@ const NavbarTwo = () => {
         <NavLgOptions></NavLgOptions>
       </div>
       </div>
-
-      
-    </nav>
+   </nav>
+    </>
   );
 };
 

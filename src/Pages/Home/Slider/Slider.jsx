@@ -41,13 +41,14 @@ const Slider = () => {
 
       {/* slider */}
 
-      <div className="carousel bg-white w-full pt-32 md:pt-0 lg:pt-0 xl:pt-0 xxl:pt-0">
+      <div className="carousel bg-white w-full">
         <div id="item1" className="carousel-item w-full h-auto">
           <picture>
             <img
               src={newSliderOne}
+              
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block"
+              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
             />
             {/* mobile slider */}
             <img
@@ -62,7 +63,7 @@ const Slider = () => {
             <img
               src={sliderImgSix}
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block"
+              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
             />
             {/* mobile slider */}
             <img src={mobileSliderTwo} alt="" className="md:hidden lg:hidden" />
@@ -73,7 +74,7 @@ const Slider = () => {
             <img
               src={sliderImgTwo}
               alt="Loading"
-              className=" w-full h-100% hidden md:block lg:block"
+              className=" w-full h-100% hidden md:block lg:block xl:block xxl:block"
             />
             {/* mobile slider */}
             <img
@@ -89,7 +90,7 @@ const Slider = () => {
             <img
               src={sliderImgThree}
               alt="Loading"
-              className=" w-full h-100% hidden md:block lg:block"
+              className=" w-full h-100% hidden md:block lg:block xl:block xxl:block"
             />
             {/* mobile slider */}
             <img
@@ -105,7 +106,7 @@ const Slider = () => {
             <img
               src={sliderImgFour}
               alt="Loading"
-              className="w-full h-100% hidden md:block lg:block"
+              className="w-full h-100% hidden md:block lg:block xl:block xxl:block"
             />
             {/* mobile slider */}
             <img
@@ -118,10 +119,10 @@ const Slider = () => {
 
         <div
           id="item6"
-          className="carousel-item w-full h-auto hidden md:block lg:block"
+          className="carousel-item w-full h-auto "
         >
           <picture>
-            <img src={sliderImgFive} alt="Loading" className="w-full h-100% " />
+            <img src={sliderImgFive} alt="Loading" className="w-full h-100% hidden md:block lg:block xl:block xxl:block" />
           </picture>
         </div>
       </div>
