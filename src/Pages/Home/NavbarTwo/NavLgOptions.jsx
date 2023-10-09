@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavLgOptions = () => {
   return (
     <div>
-      <div className="flex gap-[1.25rem] items-center justify-center">
+      <div className="flex  items-center justify-around">
         <div className="group relative">
         <Link className=" text-xs text-[#222]">Makeup</Link>
 

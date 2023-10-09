@@ -1,20 +1,19 @@
-import sliderImgOne from "../../../assets/Slider-Images/slider-1.png";
-import sliderImgTwo from "../../../assets/Slider-Images/slider-2.jpg";
-import sliderImgThree from "../../../assets/Slider-Images/slider-3.jpg";
-import sliderImgFour from "../../../assets/Slider-Images/slider-4.png";
-import sliderImgFive from "../../../assets/Slider-Images/slider-5.jpg";
-import sliderImgSix from "../../../../src/assets/Slider-Images/slider-6.png";
-import mobileSliderOne from "../../../assets/Slider-Mobile/Mobile-Banner-1.png";
-import mobileSliderTwo from "../../../assets/Slider-Mobile/Mobile-Slider-2.png";
-import mobileSliderThree from "../../../assets/Slider-Mobile/Mobile-Banner-3 .jpg";
-import mobileSliderFour from "../../../assets/Slider-Mobile/Mobile-Banner-4.jpg";
-import mobileSliderFive from "../../../assets/Slider-Mobile/Mobile-Banner-5.jpg";
-import newSliderOne from "../../../assets/Slider-Images/New-Slider-1.jpg";
-import newSliderOneMobile from "../../../assets/Slider-Mobile/New-mobile-banner-1.jpg";
+import pinkBeautyImg from "../../../assets/Slider-Images/pink-beauty-3.0.jpg"
+import pujaSaleImg from "../../../assets/Slider-Images/puja-sale.png"
+import preWinterImg from "../../../assets/Slider-Images/pre-winter.jpg"
+import couponCodeImg from "../../../assets/Slider-Images/coupon-code.jpg"
+import beautySolutionImg from "../../../assets/Slider-Images/beauty-solution.png"
+import nirvanaImg from "../../../assets/Slider-Images/nirvana.jpg"
+// slider images for mobile 
+import pinkBeautyMobile from "../../../assets/Slider-Mobile/pink-beauty-mobile.jpg"
+import pujaSaleMobile from "../../../assets/Slider-Mobile/puja-sale-mobile.png"
+import preWinterMobile from "../../../assets/Slider-Mobile/pre-winter-mobile.jpg"
+import couponCodeMobile from "../../../assets/Slider-Mobile/coupon-code-mobile.jpg"
+import nirvanaMobile from "../../../assets/Slider-Mobile/nirvana-mobile.jpg"
 import { GoDotFill } from "react-icons/go";
 import { RiChatSmileFill } from "react-icons/ri";
 import { BsBagDashFill } from "react-icons/bs";
-
+import "./slider.css"
 const Slider = () => {
   return (
     <div>
@@ -45,42 +44,45 @@ const Slider = () => {
         <div id="item1" className="carousel-item w-full h-auto">
           <picture>
             <img
-              src={newSliderOne}
-              
+              src={pinkBeautyImg}
               alt="Loading"
               className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
-            {/* mobile slider */}
+            {/* image for mobile */}
             <img
-              src={newSliderOneMobile}
+              src={pinkBeautyMobile}
               alt="Loading"
-              className="md:hidden lg:hidden w-full"
+              className="md:hidden lg:hidden w-[800px]"
             />
           </picture>
         </div>
         <div id="item2" className="carousel-item w-full h-auto">
           <picture>
             <img
-              src={sliderImgSix}
+              src={pujaSaleImg}
               alt="Loading"
               className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
-            {/* mobile slider */}
-            <img src={mobileSliderTwo} alt="" className="md:hidden lg:hidden w-full" />
+            {/* image for mobile */}
+            <img
+              src={pujaSaleMobile}
+              alt=""
+              className="md:hidden lg:hidden w-[800px]"
+            />
           </picture>
         </div>
         <div id="item3" className="carousel-item w-full h-auto">
           <picture>
             <img
-              src={sliderImgTwo}
+              src={preWinterImg}
               alt="Loading"
               className=" w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
-            {/* mobile slider */}
+            {/* image for mobile */}
             <img
-              src={mobileSliderThree}
+              src={preWinterMobile}
               alt=""
-              className="md:hidden lg:hidden w-full"
+              className="md:hidden lg:hidden w-[800px]"
             />
           </picture>
         </div>
@@ -88,15 +90,15 @@ const Slider = () => {
         <div id="item4" className="carousel-item w-full h-auto">
           <picture>
             <img
-              src={sliderImgThree}
+              src={couponCodeImg}
               alt="Loading"
               className=" w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
-            {/* mobile slider */}
+            {/* image for mobile */}
             <img
-              src={mobileSliderFour}
+              src={couponCodeMobile}
               alt=""
-              className="md:hidden lg:hidden w-full"
+              className="md:hidden lg:hidden w-[800px]"
             />
           </picture>
         </div>
@@ -104,25 +106,29 @@ const Slider = () => {
         <div id="item5" className="carousel-item w-full h-auto">
           <picture>
             <img
-              src={sliderImgFour}
+              src={beautySolutionImg}
               alt="Loading"
               className="w-full 2xl:w-[7000px] h-100% hidden md:block lg:block xl:block 2xl:block"
             />
-            {/* mobile slider */}
+            {/* image for mobile */}
             <img
-              src={mobileSliderFive}
+              src=""
               alt=""
-              className="md:hidden lg:hidden w-full"
+              className="hidden"
             />
           </picture>
         </div>
 
-        <div
-          id="item6"
-          className="carousel-item w-full h-auto "
-        >
+        <div id="item6" className="carousel-item w-full h-auto ">
           <picture>
-            <img src={sliderImgFive} alt="Loading" className="w-full h-100% hidden md:block lg:block xl:block 2xl:block 2xl:w-[7000px]" />
+            <img
+              src={nirvanaImg}
+              alt="Loading"
+              className="w-full h-100% hidden md:block lg:block xl:block 2xl:block 2xl:w-[7000px]"
+            />
+            {/* img for mobile */}
+            <img src={nirvanaMobile} alt="" className="md:hidden lg:hidden w-[800px]"/>
+            
           </picture>
         </div>
       </div>
